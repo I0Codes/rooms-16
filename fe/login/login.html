@@ -1,0 +1,66 @@
+<title>Сторінка входу</title>
+  <style>
+    body {
+      background-color: #301934; 
+      font-family: Font, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .login-container {
+      background-color: #3B444B;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #999;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
+      background-color: #555;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"],
+    .register-btn {
+      background-color: #555;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    input[type="submit"]:hover {
+      background-color: #333;
+    }
+  </style>
+<body>
+  <div class="login-container">
+    <h2>Вхід</h2>
+    <form>
+      <label for="username">Логін:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Пароль:</label>
+      <input type="password" id="password" name="password" required>
+
+      <input type="submit" value="Увійти">
+      <button type="button" class="register-btn">Реєстрація</button>
+    </form>
+  </div>
+</body>
+<style>footer-top</style>
