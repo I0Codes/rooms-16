@@ -16,45 +16,6 @@ body {
   padding: 0 20px;
 }
 
-/* Header */
-header {
-  background-color: #1e1e1e;
-  color: #fff;
-  padding: 20px 0;
-}
-
-.logo {
-  float: left;
-  font-size: 24px;
-}
-
-nav {
-  float: right;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-nav ul li {
-  margin-left: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-header::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
 /* Hero section */
 .hero {
   background: #333;
@@ -122,12 +83,3 @@ header::after {
   font-size: 16px;
   width: 200px;
 }
-
-/* Footer */
-footer {
-  background-color: #1e1e1e;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-}
-
