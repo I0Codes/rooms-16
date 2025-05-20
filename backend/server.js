@@ -4,12 +4,15 @@ const fs = require('fs');
 const cors = require('cors');
 const app = express();
 const PORT = 3000;
+const path = require('path');
 
 app.use(cors());
 app.use(express.json());
 
 const ROOMS_FILE = 'rooms.json';
 const USERS_FILE = 'users.json';
+
+app.use(express.static(path.join(__dirname, '../fe')));
 
 // Helper to read JSON
 function readData(file) {
@@ -69,4 +72,3 @@ app.delete('/api/rooms/:id', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
-
