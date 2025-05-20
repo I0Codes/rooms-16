@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "ritwickdey.LiveServer",                            // Live Server
+    "ecmel.vscode-html-css",                            // HTML CSS Support
+    "zignd.html-css-class-completion",                  // IntelliSense for CSS class names in HTML
+    "esbenp.prettier-vscode",                           // Prettier - Code formatter
+    "dbaeumer.vscode-eslint",                           // ESLint
+    "christian-kohler.path-intellisense",               // Path Intellisense
+    "bierner.json-preview",                             // JSON Viewer
+    "humao.rest-client"                                 // REST Client
+  ]
+}
