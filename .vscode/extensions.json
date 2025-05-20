@@ -7,6 +7,6 @@
     "dbaeumer.vscode-eslint",                           // ESLint
     "christian-kohler.path-intellisense",               // Path Intellisense
     "bierner.json-preview",                             // JSON Viewer
-    "humao.rest-client"                                 // REST Client
+    "humao.rest-client"                                 // REST Client1
   ]
 }
