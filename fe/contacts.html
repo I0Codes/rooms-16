@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакти - QuestRoom</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/contacts.css" />
+    <script src="js/main.js"></script>
+    <script src="js/contacts.js"></script>
+  </head>
+  <body>
+
+    <main>
+      <section class="contact">
+        <div class="container">
+          <h2>Зв'яжіться з нами</h2>
+          <p>Ми завжди раді відповісти на ваші запитання!</p>
+
+          <form action="submit_form.php" method="POST">
+            <div class="form-group">
+              <label for="name">Ваше ім'я</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Введіть ваше ім'я"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Електронна пошта</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Введіть вашу пошту"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Повідомлення</label>
+              <textarea
+                id="message"
+                name="message"
+                required
+                placeholder="Ваше повідомлення"
+                rows="4"
+              ></textarea>
+            </div>
+            <button type="submit">Відправити</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <div id="footer-placeholder"></div>
+  </body>
+</html>
+
